@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tipsandtricks/widgets/adding_animated_container.dart';
 import 'package:tipsandtricks/widgets/adding_animated_icon.dart';
 import 'package:tipsandtricks/widgets/adding_animated_list.dart';
+import 'package:tipsandtricks/widgets/adding_animated_widget.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
 import 'package:tipsandtricks/widgets/adding_position_change.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AddingPositionedChange(),
+      home: const Ball(),
     );
   }
 }
