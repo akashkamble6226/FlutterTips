@@ -5,6 +5,7 @@ import 'package:tipsandtricks/widgets/adding_animated_list.dart';
 import 'package:tipsandtricks/widgets/adding_animated_widget.dart';
 import 'package:tipsandtricks/widgets/adding_aspect_ratio.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
+import 'package:tipsandtricks/widgets/adding_jitter_free_screens.dart';
 import 'package:tipsandtricks/widgets/adding_position_change.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
 import 'package:tipsandtricks/widgets/adding_shadow_icon.dart';
@@ -24,8 +25,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const AspectR(),
+      home: const GitterFree(),
     );
   }
 }
+
+
 
