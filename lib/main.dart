@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tipsandtricks/widgets/adding_animated_blurr_image.dart';
 import 'package:tipsandtricks/widgets/adding_animated_container.dart';
 import 'package:tipsandtricks/widgets/adding_animated_icon.dart';
 import 'package:tipsandtricks/widgets/adding_animated_list.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const GitterFree(),
+      home: const BlurredImage(),
     );
   }
 }
