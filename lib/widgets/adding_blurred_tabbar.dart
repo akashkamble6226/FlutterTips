@@ -44,6 +44,7 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:tipsandtricks/Tips/adding_median_extension.dart';
 
 const images = [
   'https://bit.ly/3x7J5Qt',
@@ -136,6 +137,7 @@ class BlurredTabBar extends StatelessWidget {
                 icon: summerIcon,
                 onPressed: () {
                   // implement me
+                  testIt();
                 },
               ),
               IconButton(
