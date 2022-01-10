@@ -47,7 +47,7 @@ class Tile extends StatelessWidget {
       constraints: BoxConstraints(minHeight: 100.0),
       child: Center(
         child: CheckboxListTile(
-          shape: ContinuousRectangleBorder(),
+          shape: const ContinuousRectangleBorder(),
           value: isChecked,
           secondary: Text(
             item.icon,

@@ -45,6 +45,7 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:tipsandtricks/Tips/adding_median_extension.dart';
+import 'package:tipsandtricks/Tips/adding_type_check.dart';
 
 const images = [
   'https://bit.ly/3x7J5Qt',
@@ -144,6 +145,7 @@ class BlurredTabBar extends StatelessWidget {
                 icon: autumnIcon,
                 onPressed: () {
                   // implement me
+                  doThis();
                 },
               ),
               IconButton(
