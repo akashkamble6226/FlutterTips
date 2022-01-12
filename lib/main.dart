@@ -10,6 +10,7 @@ import 'package:tipsandtricks/widgets/adding_check_box_list_tile.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
 import 'package:tipsandtricks/widgets/adding_jitter_free_screens.dart';
 import 'package:tipsandtricks/widgets/adding_position_change.dart';
+import 'package:tipsandtricks/widgets/adding_progress_bar_with_num.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
 import 'package:tipsandtricks/widgets/adding_shadow_icon.dart';
 
@@ -28,7 +29,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const BlurredTabBar(
+      home:const NumberCircularProgressIndicator(
+        width:5.0,
+        height: 8.0,
+        progress:0.5 ,
+        textStyle: TextStyle(fontWeight:FontWeight.bold ),
         
       ),
     );
