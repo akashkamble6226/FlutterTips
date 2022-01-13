@@ -29,13 +29,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const NumberCircularProgressIndicator(
-        width:5.0,
-        height: 8.0,
-        progress:0.5 ,
-        textStyle: TextStyle(fontWeight:FontWeight.bold ),
-        
-      ),
+      home:const BlurredTabBar(),
     );
   }
 }

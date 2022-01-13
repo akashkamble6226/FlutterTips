@@ -44,6 +44,7 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:tipsandtricks/Tips/adding_classes_as_enum.dart';
 import 'package:tipsandtricks/Tips/adding_median_extension.dart';
 import 'package:tipsandtricks/Tips/adding_type_check.dart';
 
@@ -151,7 +152,7 @@ class BlurredTabBar extends StatelessWidget {
               IconButton(
                 icon: winterIcon,
                 onPressed: () {
-                  // implement me
+                testIt2();
                 },
               )
             ],

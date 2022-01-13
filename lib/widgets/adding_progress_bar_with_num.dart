@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 class NumberCircularProgressIndicator extends StatelessWidget {
   final double progress;
   final double width;
@@ -20,23 +19,26 @@ class NumberCircularProgressIndicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        alignment: Alignment.center,
-        children: [
-          Text(
-            '$_progress%',
-            style: style,
-          ),
-          SizedBox(
-              width: width,
-              height: height,
-              child: CircularProgressIndicator(
-                backgroundColor: Colors.white70,
-                value: progress,
-                color: Colors.blueAccent,
-                strokeWidth: 3.0,
-              ))
-        ],
+      backgroundColor: Colors.grey,
+      body: Center(
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            Text(
+              '$_progress%',
+              style: style,
+            ),
+            SizedBox(
+                width: width,
+                height: height,
+                child: CircularProgressIndicator(
+                  backgroundColor: Colors.white70,
+                  value: progress,
+                  color: Colors.blueAccent,
+                  strokeWidth: 3.0,
+                ))
+          ],
+        ),
       ),
     );
   }
