@@ -47,6 +47,7 @@ import 'package:flutter/material.dart';
 import 'package:tipsandtricks/Tips/adding_classes_as_enum.dart';
 import 'package:tipsandtricks/Tips/adding_median_extension.dart';
 import 'package:tipsandtricks/Tips/adding_type_check.dart';
+import 'package:tipsandtricks/Tips/custom_dart_exception.dart';
 
 const images = [
   'https://bit.ly/3x7J5Qt',
@@ -139,7 +140,7 @@ class BlurredTabBar extends StatelessWidget {
                 icon: summerIcon,
                 onPressed: () {
                   // implement me
-                  testIt();
+                 testThisException();
                 },
               ),
               IconButton(
