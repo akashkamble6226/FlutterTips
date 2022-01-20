@@ -14,6 +14,7 @@ import 'package:tipsandtricks/widgets/adding_position_change.dart';
 import 'package:tipsandtricks/widgets/adding_progress_bar_with_num.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
 import 'package:tipsandtricks/widgets/adding_shadow_icon.dart';
+import 'package:tipsandtricks/widgets/censoring_textfield.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const MyCard(),
+      home:const CensorText(),
     );
   }
 }
