@@ -8,6 +8,7 @@ import 'package:tipsandtricks/widgets/adding_aspect_ratio.dart';
 import 'package:tipsandtricks/widgets/adding_blurred_tabbar.dart';
 import 'package:tipsandtricks/widgets/adding_card_widget.dart';
 import 'package:tipsandtricks/widgets/adding_check_box_list_tile.dart';
+import 'package:tipsandtricks/widgets/adding_color_filter.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
 import 'package:tipsandtricks/widgets/adding_jitter_free_screens.dart';
 import 'package:tipsandtricks/widgets/adding_position_change.dart';
@@ -15,6 +16,7 @@ import 'package:tipsandtricks/widgets/adding_progress_bar_with_num.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
 import 'package:tipsandtricks/widgets/adding_shadow_icon.dart';
 import 'package:tipsandtricks/widgets/censoring_textfield.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const CensorText(),
+      home: const ColorFilterImage(),
     );
   }
 }

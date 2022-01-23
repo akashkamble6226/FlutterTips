@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ColorFilter extends StatefulWidget {
-  const ColorFilter({Key? key}) : super(key: key);
+class ColorFilterImage extends StatefulWidget {
+  const ColorFilterImage({Key? key}) : super(key: key);
 
   @override
-  _ColorFilterState createState() => _ColorFilterState();
+  _ColorFilterImageState createState() => _ColorFilterImageState();
 }
 
-class _ColorFilterState extends State<ColorFilter> {
+class _ColorFilterImageState extends State<ColorFilterImage> {
   var sliderValue = 0.0;
   @override
   Widget build(BuildContext context) {
@@ -28,7 +28,9 @@ class _ColorFilterState extends State<ColorFilter> {
           Slider(
               value: sliderValue,
               onChanged: (value) {
-                sliderValue = value;
+               setState(() {
+                  sliderValue = value;
+               });
               })
         ],
       ),
