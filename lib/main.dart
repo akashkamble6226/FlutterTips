@@ -9,6 +9,7 @@ import 'package:tipsandtricks/widgets/adding_blurred_tabbar.dart';
 import 'package:tipsandtricks/widgets/adding_card_widget.dart';
 import 'package:tipsandtricks/widgets/adding_check_box_list_tile.dart';
 import 'package:tipsandtricks/widgets/adding_color_filter.dart';
+import 'package:tipsandtricks/widgets/adding_containers_as_clip_oval.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
 import 'package:tipsandtricks/widgets/adding_jitter_free_screens.dart';
 import 'package:tipsandtricks/widgets/adding_position_change.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ColorFilterImage(),
+      home: const ContainerAsOval(),
     );
   }
 }
