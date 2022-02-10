@@ -12,6 +12,7 @@ import 'package:tipsandtricks/widgets/adding_color_filter.dart';
 import 'package:tipsandtricks/widgets/adding_containers_as_clip_oval.dart';
 import 'package:tipsandtricks/widgets/adding_converting_enum_to_radio_button.dart';
 import 'package:tipsandtricks/widgets/adding_custome_color_component.dart';
+import 'package:tipsandtricks/widgets/adding_custome_scroll_view.dart';
 import 'package:tipsandtricks/widgets/adding_custome_tab_bar.dart';
 import 'package:tipsandtricks/widgets/adding_floating_action_button.dart';
 import 'package:tipsandtricks/widgets/adding_jitter_free_screens.dart';
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const HomeScreen(),
+      home:  const MyCustomeScrollView(),
     );
   }
 }
