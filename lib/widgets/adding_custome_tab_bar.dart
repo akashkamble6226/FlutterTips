@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tipsandtricks/Tips/addng_url_file_type_over_https.dart';
 
 class TabBarButton extends StatelessWidget {
 
@@ -11,7 +12,9 @@ class TabBarButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding:const EdgeInsets.all(8.0),
-      child: Icon(iconData,size: size),
+      child: GestureDetector(
+        onTap: (){testUrlType();},
+        child: Icon(iconData,size: size)),
       
     );
   }
