@@ -21,6 +21,7 @@ import 'package:tipsandtricks/widgets/adding_progress_bar_with_num.dart';
 import 'package:tipsandtricks/widgets/adding_selection_text.dart';
 import 'package:tipsandtricks/widgets/adding_shadow_icon.dart';
 import 'package:tipsandtricks/widgets/censoring_textfield.dart';
+import 'package:tipsandtricks/widgets/displaying_and_reacting_to_switches.dart';
 
 import 'widgets/adding_custome_clippers.dart';
 
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const HomeScreen(),
+      home:  const PlayWithSwitches(),
     );
   }
 }
