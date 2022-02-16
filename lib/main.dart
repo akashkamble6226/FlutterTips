@@ -6,6 +6,8 @@ import 'package:tipsandtricks/widgets/adding_animated_list.dart';
 import 'package:tipsandtricks/widgets/adding_animated_widget.dart';
 import 'package:tipsandtricks/widgets/adding_aspect_ratio.dart';
 import 'package:tipsandtricks/widgets/adding_blurred_tabbar.dart';
+import 'package:tipsandtricks/widgets/adding_bottom_bar.dart';
+import 'package:tipsandtricks/widgets/adding_bottom_sheet.dart';
 import 'package:tipsandtricks/widgets/adding_card_widget.dart';
 import 'package:tipsandtricks/widgets/adding_check_box_list_tile.dart';
 import 'package:tipsandtricks/widgets/adding_color_filter.dart';
@@ -43,7 +45,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:  const PlayWithSwitches(),
+      home:  const MyBottomSheet(),
     );
   }
 }

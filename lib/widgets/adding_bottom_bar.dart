@@ -17,13 +17,13 @@ class _MyBottomBarState extends State<MyBottomBar> {
         title: const Text('Bottom Bar'),
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [
+        items: const [
           BottomNavigationBarItem(
-            icon: Icons.bedtime,
+            icon:Icon(Icons.bedtime),
             label: 'Item 1',
           ),
           BottomNavigationBarItem(
-            icon: Icons.bedtime,
+            icon:Icon(Icons.flag),
             label: 'Item 1',
           )
         ],
